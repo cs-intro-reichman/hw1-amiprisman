@@ -15,11 +15,10 @@ public class FVCalc {
         double fv = temp * current;
 
         // print out and display nicely 
-        System.out.print("After " + years + " years, ");
+        System.out.print("After " + years + " years, a ");
         System.out.print("$");
         System.out.print((int) current);
-        System.out.print(" saved at %");
-        System.out.print(intrest);
+        System.out.print(" saved at" + intrest+ "%");
         System.out.print(" will yeild $");
         System.out.print((int) fv);
 

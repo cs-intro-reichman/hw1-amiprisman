@@ -9,6 +9,6 @@ public class Bill3 {
         //divide total by 3 converting to a double and rounding up
 		double each = Math.ceil(total / 3.0); 		
 		//return divided value
-		System.out.print( "Dear, " + name1 + ", " + name2 + ", and " + name3 + ": pay " + each +" Shekels Each" );
+		System.out.print( "Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + each +" Shekels each" );
 	}
 }
