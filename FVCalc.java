@@ -18,7 +18,7 @@ public class FVCalc {
         System.out.print("After " + years + " years, a ");
         System.out.print("$");
         System.out.print((int) current);
-        System.out.print(" saved at" + intrest+ "%");
+        System.out.print(" saved at " + intrest+ "%");
         System.out.print(" will yeild $");
         System.out.print((int) fv);
 

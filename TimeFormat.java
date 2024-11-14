@@ -27,24 +27,23 @@ public class TimeFormat {
 		if (hours>12){
 			hours = hours - 12;
 			 m = "PM";
-			if (hours<10){
-			hr = "0" + hours;
-			}}
+			 hr = "" + hours;
+			 }
+			
+		else if (hours<12){
+			hr = ""+ hours;
+			m = "AM";
+			}
+		
 		else if (hours == 00){
-			hr = "12";
+			hr = "0";
 			m = "AM";
 		}
+		else if (hours == 12){
+			hr = "" + hours;
+			m = "PM";
+		}
 
-		 else {
-			 m = "AM";
-			if (hours<10){
-			hr = "0" + hours;
-			}}
-		
-		
-		
-		
-		
 		System.out.print(hr + ":" + min + " "+ m);
 	}
 }
