@@ -19,7 +19,7 @@ public class FVCalc {
         System.out.print("$");
         System.out.print((int) current);
         System.out.print(" saved at " + intrest+ "%");
-        System.out.print(" will yeild $");
+        System.out.print(" will yield $");
         System.out.print((int) fv);
 
     }
